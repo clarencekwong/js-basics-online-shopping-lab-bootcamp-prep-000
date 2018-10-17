@@ -11,14 +11,14 @@ function setCart(c) {
 
 function addToCart(item) {
  // write your code here
-<<<<<<< HEAD
+
   var i = createCartItem(item);
   getCart().push(i)
   return `${i.itemName} has been added to your cart.`
-=======
+
  var price = Math.random() * Math.floor(100);
  Object.assign(cart,{item:`${price}`})
->>>>>>> f504d06fb84dff49e44270182a2ec8f6f687c368
+
 }
 
 function viewCart() {
